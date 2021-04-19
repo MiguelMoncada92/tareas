@@ -1,0 +1,169 @@
+    div.contenedor {
+        max-width: 970px;
+        background-image: linear-gradient(rgba(36, 80, 118, 255), rgba(51, 116, 172, 255));
+        min-height: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    div.contenedor div.uno {
+        min-height: 150px;
+        max-width: 970px;
+    }
+    
+    div.contenedor div.uno img.python-img {
+        max-width: 100%;
+        max-height: auto;
+    }
+    
+    div.contenedor div.uno div {
+        min-height: 10px;
+        max-width: 500px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    div.contenedor div.uno div.top-text {
+        min-height: 100px;
+        max-width: 500px;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 80px;
+        margin-left: 30px;
+    }
+    
+    div.contenedor div.uno div.top-text p a {
+        display: inline-block;
+        color: gold;
+        font-size: 14px;
+    }
+    
+    div.contenedor div.uno div.top-text p {
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+        vertical-align: top;
+    }
+    
+    div.contenedor div.uno div.top-text div.button {
+        max-height: 30px;
+        min-width: 10px;
+        display: block;
+        background-color: grey;
+        padding: 10px;
+        border-radius: 6px;
+        box-shadow: 5px 5px 5px black;
+    }
+    
+    div.contenedor div.dos {
+        background-image: linear-gradient(rgb(31, 123, 228), rgb(54, 139, 236), rgb(31, 123, 228));
+        min-width: 700px;
+        box-shadow: 3px 3px 3px black;
+        max-height: 100;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    div.contenedor div.dos ul li {
+        display: inline-block;
+        font-size: 24px;
+        color: white;
+        margin: 10px;
+    }
+    
+    div.contenedor div.tres {
+        max-height: 400px;
+        max-width: 970px;
+    }
+    
+    div.contenedor div.tres div.menu {
+        max-width: 250px;
+        min-height: 100px;
+        display: inline-block;
+        margin: 10px 10px 30px 50px;
+    }
+    
+    div.contenedor div.tres div.menu ul li {
+        color: white;
+        font-size: 15px;
+        text-decoration: white underline;
+    }
+    
+    div.contenedor div.tres div.explicacion {
+        max-width: 500px;
+        min-height: 300px;
+        display: inline-block;
+        vertical-align: top;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 80px;
+    }
+    
+    div.contenedor div.tres div.explicacion p.texto {
+        font-size: 11px;
+        color: white;
+        text-align: center;
+    }
+    
+    div.contenedor div.tres div.explicacion pre.frase {
+        font-size: 14px;
+        color: gold;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    div.contenedor div.tres div.explicacion p.autor {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+    }
+    
+    div.contenedor div.cuatro {
+        max-height: 300px;
+        max-width: 970px;
+        background-color: white;
+    }
+    
+    div.contenedor div.cuatro div.explicacion-2 {
+        display: inline-block;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-size: 12px;
+        max-width: 400px;
+        vertical-align: top;
+        margin-left: 40px;
+    }
+    
+    div.contenedor div.cuatro div.explicacion-2 h1 {
+        font-size: 14px;
+        border-top: cornflowerblue 2px solid;
+    }
+    
+    div.contenedor div.cuatro div.explicacion-2 p {
+        font-size: 11px;
+    }
+    
+    div.contenedor div.cuatro div.explicacion-2 p a {
+        color: cornflowerblue;
+    }
+    
+    div.contenedor div.cuatro div.explicacion-2 ul li {
+        color: cornflowerblue;
+    }
+    
+    div.contenedor div.cinco {
+        max-height: 150px;
+        max-width: 970px;
+        text-align: center;
+        color: rgba(135, 185, 229, 255);
+    }
+    
+    div.contenedor div.cinco h1 {
+        display: inline-block;
+        color: rgba(135, 185, 229, 255);
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+    div.contenedor div.cinco p {
+        padding: 10px;
+    }

@@ -1,0 +1,62 @@
+h1 {
+    color: silver;
+    background-color: red;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(51, 51, 218);
+}
+
+#menu {
+    background-color: rgb(31, 90, 100);
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 6px;
+    width: 160px;
+    font-size: 15px;
+    text-decoration: underline turquoise;
+    color: turquoise;
+}
+
+.contenido {
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(18, 22, 37);
+    color: white;
+    border-radius: 6px;
+    width: 900px;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.link {
+    background-color: grey;
+    display: block;
+    width: 1150px;
+    font-size: 15px;
+    color: black;
+}
+
+.fparr {
+    color: white;
+}
+
+ul li span {
+    color: turquoise;
+    text-decoration: underline turquoise;
+}
+
+div ul li {
+    color: white;
+}
+
+ul li a {
+    color: purple;
+}
+
+.titulo {
+    font-size: 20px;
+}

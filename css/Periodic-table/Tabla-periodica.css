@@ -1,0 +1,45 @@
+* {
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ordenador {
+    display: inline-block;
+}
+
+.azul {
+    background-color: #689BD3;
+    display: inline-block;
+}
+
+.rosado {
+    background-color: #FD9A98;
+    display: inline-block;
+}
+
+.amarillo {
+    background-color: #FECB00;
+    display: inline-block;
+}
+
+.verde {
+    background-color: #1FCA21;
+    width: 70%;
+    height: 100px;
+}
+
+div.container {
+    width: 100%;
+    min-height: 500px;
+}
+
+div.col {
+    min-width: 5%;
+    min-height: 300px;
+    display: inline-block;
+}
+
+div.container div.row {
+    display: block;
+}

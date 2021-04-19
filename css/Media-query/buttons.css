@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+button.navbtn {
+    width: 200px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 480px) {
+    button.navbtn {
+        background-color: yellow;
+        display: block;
+        min-width: 20em;
+        max-height: 10em;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    button.navbtn {
+        background-color: blue;
+        display: inline-block;
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    button.navbtn {
+        background-color: red;
+        display: inline-block;
+        max-height: 5em;
+        width: 24%;
+        margin: 0px;
+    }
+}

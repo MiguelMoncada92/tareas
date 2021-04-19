@@ -1,0 +1,98 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    margin: 20px;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
+}
+
+#wrapper {
+    width: 950px;
+    background-color: silver;
+    margin: 10px;
+    overflow: auto;
+}
+
+#header {
+    min-height: 150px;
+    background-color: green;
+    margin: 20px;
+    display: block;
+}
+
+#navigation {
+    min-height: 250px;
+    width: 200px;
+    background-color: blue;
+    margin: 10px 10px 80px 20px;
+    vertical-align: top;
+}
+
+#main_content {
+    min-height: 100px;
+    min-width: 300px;
+    background-color: red;
+    vertical-align: top;
+}
+
+.subcontents {
+    min-height: 180px;
+    width: 180px;
+    background-color: yellow;
+    margin: 5px;
+}
+
+#advertisement {
+    min-height: 80px;
+    width: 600px;
+    background-color: purple;
+    margin: 10px 10px 40px 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    div.sm-0 {
+        display: none;
+    }
+    .sm-4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .med-0 {
+        display: none;
+    }
+    .med-2 {
+        width: 45%;
+    }
+    .med-4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .lg-1 {
+        width: 23%;
+        display: inline-block;
+    }
+    .lg-one-third {
+        width: 31%;
+        display: inline-block;
+    }
+    .lg-3 {
+        width: 72%;
+        display: inline-block;
+    }
+    .lg-4 {
+        width: 100%;
+    }
+}

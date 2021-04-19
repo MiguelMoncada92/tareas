@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: purple;
+}
+
+.book {
+    font-weight: bold;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.row {
+    padding: 10px;
+    border: 3px solid blue;
+}
+
+@media only screen and (max-width:480px) {
+    .sm-4 {
+        width: 100%;
+    }
+    .sm-0 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:480px) {
+    .med-2 {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .lg-1 {
+        width: 23%;
+    }
+    .lg-3 {
+        width: 71%;
+    }
+}

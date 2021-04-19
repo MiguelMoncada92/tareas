@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //ejercicio 1
+        function printAverage(x) {
+            sum = 0;
+            for (var i = 0; i < x.length; i++) {
+                sum = sum + x[i];
+            }
+            return sum / x.length;
+        }
+        y = printAverage([1, 2, 3]);
+        console.log(y); // should log 2
+
+        y = printAverage([2, 5, 8]);
+        console.log(y); // should log 5
+    </script>
+    <script>
+        //ejercicio 2
+        function returnOddArray(x) {
+            var array = [];
+            for (var i = 0; i <= x; i++) {
+                if (i % 2 == !0) {
+                    array.push(i);
+                }
+            }
+            return array
+        }
+        y = returnOddArray(255);
+        console.log(y); // should log [1,3,5,...,253,255]
+    </script>
+    <script>
+        //ejercicio 3
+        function squareValue(x) {
+            for (var i = 0; i < x.length; i++) {
+                x[i] = x[i] * x[i];
+            }
+            return x;
+        }
+        y = squareValue([1, 2, 3]);
+        console.log(y); // should log [1,4,9]
+
+        y = squareValue([2, 5, 8]);
+        console.log(y); // should log [4,25,64]
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Configura un array para que los valores negativos se transformen en 0. Por ejemplo, resetNegativos([1,2,-1,-3]) debiera dar como resultado [1,2,0,0].
+        var y = [1, 2, -1, -3];
+        console.log(resetNegativos(y));
+
+        function resetNegativos(a) {
+
+            for (var i = 0; i < a.length; i++) {
+                if (a[i] < 0) {
+                    a[i] = 0;
+                }
+            }
+            return a;
+        }
+
+        //Dado un array, mueve todos los valores un espacio de derecha a izquierda eliminando el primer valor y dejando un 0 para el último valor. Por ejemplo, moverAdelante([1,2,3]) debiera dar como resultado [2,3,0].
+        var arr = [1, 2, 3, 4];
+        console.log(moverAdelante(arr))
+
+        function moverAdelante(a) {
+            var newarr = a
+            for (var i = 0; i < a.length; i++) {
+                a[i] = a[i + 1];
+                if (i === a.length - 1) {
+                    a[i] = 0
+                }
+            }
+            return newarr;
+        }
+        //Configura un array para que el resultado sean los valores en el orden contrario. Por ejemplo, returnReverso([1,2,3]) debe dar [3,2,1].
+        var arr = [1, 2, 3]
+        console.log(returnReverso(arr))
+
+        function returnReverso(a) {
+            var newarr = [];
+            for (var i = a.length - 1; i >= 0; i--) {
+                newarr.push(a[i]);
+            }
+            return newarr;
+        }
+
+        //Crea una función que cambie un array repitiendo sus valores originales (manteniendo el mismo orden). Por ejemplo, repetirValores([4,”Ulysses”, 42, false]) debiera dar [4,4, “Ulysses”, “Ulysses”, 42, 42, false, false].
+        var x = [4, "Ulysses", 42, "false"];
+        console.log(repetirValores(x));
+
+        function repetirValores(a) {
+            var zz = []
+            for (var i = 0; i < a.length; i++) {
+                zz.push(a[i]);
+                zz.push(a[i]);
+            }
+            return zz;
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

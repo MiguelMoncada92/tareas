@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="para probar algoritmos">
+    <title>algoritmos II</title>
+    <script>
+        //codigo 1
+        function printUpTo(x) {
+            for (var i = 1; i <= x; i++) {
+                if (x >= 0) {
+                    console.log(i);
+                }
+            }
+            return ("false");
+        }
+
+        printUpTo(1000);
+        y = printUpTo(-10);
+        console.log(y);
+    </script>
+    <script>
+        //ejercicio 2
+        function printSum(x) {
+            var sum = 0;
+            for (var i = 0; i <= x; i++) { //your code here
+                console.log(i);
+                sum = sum + i;
+                console.log(sum);
+            }
+            return sum
+        }
+        y = printSum(255) // debería imprimir todos los enteros de 0 a 255 y que cada entero imprima la suma parcial.
+        console.log(y) // // debería imprimir 32640
+    </script>
+    <script>
+        //ejercicio 3
+        function printSumArray(x) {
+            var sum = 0;
+            for (var i = 0; i < x.length; i++) {
+                sum = sum + x[i]; //your code here
+            }
+            return sum;
+        }
+        console.log(printSumArray([1, 2, 3])); // debería imprimir 6
+    </script>
+    <script>
+        //ejercicio 4
+        //Crea una función que entregue el elemento más grande (largest element) en un array.<p>
+        //Por ejemplo largestElement([1,30,5,7]) debiera dar como resultado 30.
+        function largestelement(x) {
+            var largest = x[0];
+            for (var i = 0; i < x.length; i++) {
+                if (x[i] > largest) {
+                    largest = x[i];
+                }
+            }
+            return largest;
+        }
+        y = largestelement([1, 30, 5, 7]);
+        console.log(y);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
