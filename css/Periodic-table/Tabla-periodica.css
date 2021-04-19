@@ -1,45 +1,145 @@
 * {
-    border: 1px solid red;
     margin: 0px;
     padding: 0px;
 }
 
+div#top p {
+    display: inline-block;
+    color: red;
+    margin-left: 11px;
+    padding: 0px 20px;
+}
+
 .ordenador {
     display: inline-block;
+    width: 5%;
+    vertical-align: top;
+}
+
+.contenedor-azul {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    margin-left: 1px;
 }
 
 .azul {
     background-color: #689BD3;
+}
+
+.contenedor-rosado {
     display: inline-block;
+    width: 51%;
+    text-align: center;
 }
 
 .rosado {
     background-color: #FD9A98;
+}
+
+.contenedor-amarillo {
     display: inline-block;
+    width: 30%;
+    text-align: center;
 }
 
 .amarillo {
     background-color: #FECB00;
+}
+
+.contenedor-verde {
+    width: 70%;
+    min-height: 100px;
+    text-align: center;
     display: inline-block;
+    margin-top: 30px;
+    margin-left: 3px;
 }
 
 .verde {
     background-color: #1FCA21;
-    width: 70%;
-    height: 100px;
+}
+
+.text-lantanid {
+    color: red;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text-lantanid p {
+    display: inline-block;
+    margin: 50px 0px 20px 40px;
 }
 
 div.container {
     width: 100%;
     min-height: 500px;
+    background-color: #eeeeee;
 }
 
 div.col {
     min-width: 5%;
-    min-height: 300px;
+    min-height: 10px;
     display: inline-block;
 }
 
 div.container div.row {
     display: block;
+}
+
+div.rosado div.col {
+    vertical-align: bottom;
+}
+
+.elemento {
+    border: 1px solid rgba(161, 161, 161, 255);
+    margin: 1px 0px;
+    padding: 1px 0px;
+}
+
+h1 {
+    color: #1913a2;
+}
+
+.primeracol {
+    margin: 10px 5px 40px 0px;
+    font-size: 1em;
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    padding: 7px 0px;
+    color: red;
+}
+
+.contenedor-rosado .numero-col {
+    vertical-align: top;
+    margin-bottom: 232px;
+    color: red;
+    padding: 1em;
+}
+
+.contenedor-azul .numero-col {
+    vertical-align: top;
+    color: red;
+    padding: 1em;
+}
+
+.contenedor-azul .numero-col2 {
+    vertical-align: top;
+    margin-bottom: 78px;
+    color: red;
+    padding: 1em;
+}
+
+.contenedor-amarillo .numero-col {
+    vertical-align: top;
+    color: red;
+    padding: 1em;
+    margin-bottom: 78px;
+}
+
+.contenedor-amarillo .numero-col2 {
+    vertical-align: top;
+    color: red;
+    padding: 1em;
 }
