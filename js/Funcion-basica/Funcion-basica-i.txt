@@ -1,0 +1,19 @@
+Correctos:15;
+Errados:0;
+Total: 15;
+
+1.- consola: 35;
+2.- consola: 8;
+3.- consola: 6;
+4.- consola: 3,9;
+5.- consola: 40;
+6.- consola: 4;
+7.- consola: 10,3,30;
+8.- consola: 3,4;
+9.- consola: 2,5,8,11;
+10.- consola: 0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0;
+11.- consola: no se ejecuta;
+12.- consola: no se ejecuta;
+13.- consola: 10;
+14.- consola: 15,10;
+15.- consola: 15,15;
