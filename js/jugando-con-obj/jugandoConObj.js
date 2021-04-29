@@ -1,8 +1,8 @@
 var users = [{ name: "Michael", age: 37 }, { name: "John", age: 30 }, { name: "David", age: 27 }];
-
+var nombre = "";
 
 function buscarPorNombre() {
-    var nombre = document.getElementById("nombre").value;
+
     for (var i = 0; i < users.length; i++) {
         if (nombre == users[i].name) {
             return document.getElementById("edad").innerHTML = users[i].age;
@@ -11,7 +11,9 @@ function buscarPorNombre() {
     return document.getElementById("edad").innerHTML = "Este nombre no esta en la lista";
 }
 
-
+function valorNombre() {
+    nombre = document.getElementById("nombre").value;
+}
 
 
 
