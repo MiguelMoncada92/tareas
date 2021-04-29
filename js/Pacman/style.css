@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+div.row div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+div.brick {
+    background-color: blue;
+}
+
+div.empty {}
+
+div.coin {
+    background-image: url(Pacman-coin.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+div.pacman {
+    background-image: url(pcman-right.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
