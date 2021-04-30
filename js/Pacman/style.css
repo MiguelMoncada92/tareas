@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    vertical-align: top;
 }
 
 body {
@@ -23,12 +24,31 @@ div.coin {
     background-image: url(Pacman-coin.gif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 }
 
-div.pacman {
+div#pacman {
     background-image: url(pcman-right.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div#score {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+div.cherry {
+    background-image: url(Cherry-Bonus.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
