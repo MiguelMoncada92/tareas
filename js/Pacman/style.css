@@ -18,7 +18,9 @@ div.brick {
     background-color: blue;
 }
 
-div.empty {}
+div.empty {
+    background-color: black;
+}
 
 div.coin {
     background-image: url(Pacman-coin.gif);
