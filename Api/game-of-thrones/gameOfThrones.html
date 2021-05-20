@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/main.js"></script>
+    <title>Game of Thrones</title>
+    <script>
+        var url = "https://anapioficeandfire.com/api/houses";
+
+        function nombreCasa() {
+            $.get(url + "/16/", function(respuesta) {
+                $(".descripcion").html("<h4>" + respuesta.name + "</h4>")
+            }, "json")
+        };
+        $(document).ready(function() {
+            $.get(url, function(respuesta) {
+                console.log(respuesta);
+            }, "json")
+        });
+    </script>
+</head>
+
+<body>
+    <div class="imagenes">
+        <div class="imagen">
+            <img src="imgenes/baratheon.png" alt="baratheon" info-src="https://anapioficeandfire.com/api/houses/16">
+        </div>
+        <div class="imagen">
+            <img src="imgenes/lannister.jpg" alt="lannister" info-src=>
+        </div>
+        <div class="imagen">
+            <img src="imgenes/stark.jpg" alt="stark" info-src=>
+        </div>
+        <div class="imagen">
+            <img src="imgenes/targaryen.jpg" alt="targaryen" info-src=>
+        </div>
+    </div>
+    <div class="descripcion"></div>
+</body>
+
+</html>

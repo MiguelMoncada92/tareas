@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.imagenes {
+    width: 100%;
+    min-height: 200px;
+}
+
+div.imagen {
+    width: 24.5%;
+    height: auto;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
