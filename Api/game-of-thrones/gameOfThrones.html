@@ -12,35 +12,59 @@
     <script>
         var url = "https://anapioficeandfire.com/api/houses";
 
-        function nombreCasa() {
-            $.get(url + "/16/", function(respuesta) {
-                $(".descripcion").html("<h4>" + respuesta.name + "</h4>")
-            }, "json")
+        function nombreCasa(a) {
+            $.get(url + "/" + a + "/", function(respuesta) {
+                var innerHTML = "";
+                if (a == 16) {
+                    innerHTML += "<h3>Casa:</h3> <h4>" + respuesta.name + "</h4>"
+                    innerHTML += "<h3>Region: </h3><h4>" + respuesta.region + "</h4>"
+                    innerHTML += "<h3>Titulos: </h3><h4>" + respuesta.titles + "</h4>"
+                } else {
+                    innerHTML += "<h3>Casa:</h3> <h4>" + respuesta.name + "</h4>"
+                    innerHTML += "<h3>Region: </h3><h4>" + respuesta.region + "</h4>"
+                    innerHTML += "<h3>Palabras: </h3><h4>" + respuesta.words + "</h4>"
+                    innerHTML += "<h3>Titulos: </h3><h4>" + respuesta.titles + "</h4>"
+                }
+                $(".descripcion").html(innerHTML);
+            }, "json");
+        };
+
+        function dejarEnBlanco() {
+            $(".descripcion").html("<h4> Mueve el mouse sobre las imágenes </h4>");
         };
         $(document).ready(function() {
-            $.get(url, function(respuesta) {
-                console.log(respuesta);
-            }, "json")
+            $(".descripcion").hide();
+            $(".descripcion").fadeIn(1000);
+            dejarEnBlanco();
+            $("img").hover(function() {
+                    var numeroCasa = $(this).attr("info-src");
+                    nombreCasa(numeroCasa);
+                },
+                function() {
+                    dejarEnBlanco();
+                });
         });
     </script>
 </head>
 
 <body>
-    <div class="imagenes">
-        <div class="imagen">
-            <img src="imgenes/baratheon.png" alt="baratheon" info-src="https://anapioficeandfire.com/api/houses/16">
+    <div class="container">
+        <div class="imagenes">
+            <div class="imagen">
+                <img src="imgenes/baratheon.png" alt="baratheon" info-src="16">
+            </div>
+            <div class="imagen">
+                <img src="imgenes/lannister.jpg" alt="lannister" info-src="229">
+            </div>
+            <div class="imagen">
+                <img src="imgenes/stark.jpg" alt="stark" info-src="362">
+            </div>
+            <div class="imagen">
+                <img src="imgenes/targaryen.jpg" alt="targaryen" info-src="378">
+            </div>
         </div>
-        <div class="imagen">
-            <img src="imgenes/lannister.jpg" alt="lannister" info-src=>
-        </div>
-        <div class="imagen">
-            <img src="imgenes/stark.jpg" alt="stark" info-src=>
-        </div>
-        <div class="imagen">
-            <img src="imgenes/targaryen.jpg" alt="targaryen" info-src=>
-        </div>
+        <div class="descripcion"></div>
     </div>
-    <div class="descripcion"></div>
 </body>
 
 </html>

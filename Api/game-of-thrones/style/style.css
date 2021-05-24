@@ -1,6 +1,17 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(/Api/game-of-thrones/imgenes/background_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.container {
+    margin-top: 5%;
 }
 
 div.imagenes {
@@ -9,7 +20,8 @@ div.imagenes {
 }
 
 div.imagen {
-    width: 24.5%;
+    margin: 5px;
+    width: 24%;
     height: auto;
     display: inline-block;
 }
@@ -17,4 +29,26 @@ div.imagen {
 img {
     width: 100%;
     height: auto;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+div.descripcion {
+    background-color: #737879;
+    min-height: 150px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #DAB188;
+}
+
+div h4 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
 }
