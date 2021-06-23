@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8">
+<desayunoMenu>
+    <item category="Cafe">
+        <name>Cafe de grano</name>
+        <description>Un cafe rico.</description>
+        <price>$10.99</price>
+    </item>
+    <item category="Cafe">
+        <name>Cafe con azucar</name>
+        <description>Un cafe dulce. </description>
+        <price>$12.99</price>
+    </item>
+    <item category="sanguche">
+        <name>sanguche de Pastrami</name>
+        <description>Un sanguche hecho con pastrami.</description>
+        <price>$13.99</price>
+    </item>
+    <item category="bebidas">
+        <name>Coca-Cola</name>
+        <description>Una gaseosa.</description>
+        <price>$0.99</price>
+    </item>
+    <item category="bebidas">
+        <name>Jugo de Naranja</name>
+        <description>Un jugo hecho con naranjas.</description>
+        <price>$0.99</price>
+    </item>    
+</desayunoMenu>
+<cenaMenu>
+    <item category="Plato">
+        <name>Arroz de grano</name>
+        <description>Un Arroz rico.</description>
+        <price>$10.99</price>
+    </item>
+    <item category="Plato">
+        <name>Maiz con azucar</name>
+        <description>Un Maiz dulce. </description>
+        <price>$12.99</price>
+    </item>
+    <item category="sanguche">
+        <name>sanguche de potito</name>
+        <description>Un sanguche hecho con cerdo.</description>
+        <price>$13.99</price>
+    </item>
+    <item category="bebidas">
+        <name>Coca-Cola</name>
+        <description>Una gaseosa.</description>
+        <price>$0.99</price>
+    </item>
+    <item category="bebidas">
+        <name>Jugo de Naranja</name>
+        <description>Un jugo hecho con naranjas.</description>
+        <price>$0.99</price>
+    </item>    
+</cenaMenu>
