@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+* {
+				margin:0px;
+				padding: 0px;
+				
+			}
+			div.container{
+				width: 100%;
+				min-height: 30%;
+				margin: 10%;
+			}
+			div.azul {
+				border:1px solid blue;
+				height: 40px;
+				width: 40px;
+				display: inline-block;
+			}
+			div.rojo {
+				height: 40px;
+				width: 40px;
+				display: inline-block;
+				border: 1px solid red;
+			}
+			h1 {
+				color: green;
+			}
