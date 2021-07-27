@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 1%;
+	background-color: orange;
+}
+table{
+	border:1px solid black;
+	margin-left:23%;
+	margin-top:5%;
+	width: 50%;
+	box-shadow: 3px 3px 3px black;
+}
+th{
+	border:1px solid black;
+}
+
+td{
+	text-align:justify;
+	border:1px solid red;
+}
+form{
+	display:inline-block;
+	margin:1%;
+}
+div.nuevo{
+	margin-top: 1%;
+	background-image: grey;
+	display:inline-block;
+	padding:5px 10px;
+	color:white;
+	text-decoration: none;
+	box-shadow: 3px 3px 3px black;
+}
